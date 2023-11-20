@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+
+h1 {
+    color: #007bff;
+}
+
+#searchInput {
+    padding: 8px;
+    margin-right: 20px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#bookList {
+    margin-top: 20px;
+}
+
+#bookList div {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Adiciona estilo para a barra de navegação ativa */
+.nav-item.active a {
+    color: #007bff !important;
+}
+
+/* Adiciona estilo para o botão de navegação */
+.navbar-toggler-icon {
+    background-color: #007bff;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

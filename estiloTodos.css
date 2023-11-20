@@ -1,0 +1,36 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item.active a {
+    color: #007bff !important;
+}
+
+.navbar{
+    width: 100%;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+#noticias {
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    object-position:  bottom;
+    width: 100%;
+        
+}
+
+
+
